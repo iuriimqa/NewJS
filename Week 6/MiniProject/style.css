@@ -1,0 +1,29 @@
+h2{
+    font-family: 'SEGA LOGO FONT', sans-serif;
+}
+
+.navbar{
+    background-image: url("card-pattern.png");
+    background-color: green;
+    color: darkgray;
+}
+
+#container{
+    background-image:url("circuit-pattern.png");
+    background-color: blueviolet;
+    background-size:auto;
+    ;
+}
+
+#search{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.aclass{
+    img{
+        border-radius: 50;
+    };
+    
+}
