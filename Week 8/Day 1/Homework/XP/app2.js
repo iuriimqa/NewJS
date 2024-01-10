@@ -4,6 +4,6 @@ const {writeF} = require("./fileManager.js");
 
 // console.log(readF('./Hello World.txt'));
 console.log(readF("./Hello World.txt"));
-readF("./Bye world.txt");
+writeF("./Bye world.txt","Writing to the file");
 
 
