@@ -1,6 +1,14 @@
 /** API Restfulll API */
 /** CRUD */
 
+/**
+ * server
+ * |_config - connection to database
+ * |_models - queries to database
+ * |_controllers - function inplementation code
+ * |_routes - route implementation codes.
+ */
+
 const express = require("express");
 const bp = require("body-parser");
 

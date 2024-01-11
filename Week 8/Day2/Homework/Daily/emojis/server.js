@@ -8,6 +8,7 @@ const app = express();
 const __dirname = path.resolve();
 app.use("/", express.static(__dirname + "/public"));
 app.use(express.urlencoded({extended:true}));
+app.use(express.json());
 
 console.log(__dirname);
 
